@@ -1,0 +1,110 @@
+/* Body styling */
+body {
+  background-color: hsla(270, 26%, 93%, 0.66); /* Light blue background */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Default font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full height */
+}
+
+/* General container styling */
+.container {
+  background-color: #1152ded7; /* Blue background */
+  width: 400px; /* Set a fixed width for the form */
+  padding: 20px; /* Add padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #fff; /* White text for contrast */
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.underline {
+  height: 2px;
+  background-color: #fff; /* White underline */
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Input section styling */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between input fields */
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and input */
+  border: 1px solid #ddd; /* Light border */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff; /* White input background */
+  color: #333; /* Dark text inside inputs */
+}
+
+.input img {
+  width: 20px;
+  height: 20px;
+}
+
+.input input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Forgot password styling */
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ddd; /* Lighter text for contrast */
+}
+
+.forgot-password span {
+  color: #fff; /* Highlighted text */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Submit button styling */
+.submit-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit {
+  background-color: #fff; /* White button */
+  color: #007bff; /* Blue text for buttons */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.submit:hover {
+  background-color: #e0e0e0; /* Light grey hover effect */
+}
+
+.submit.gray {
+  background-color: #ccc; /* Disabled button */
+  color: #666;
+  cursor: not-allowed;
+}
